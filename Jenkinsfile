@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'npm install'
-                echo 'npm --version'
+                echo sh 'npm --version'
             }
         }
         stage('Test') {
