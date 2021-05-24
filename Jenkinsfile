@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install 14.16.0'
+                sh 'npm install'
                 
             }
         }
